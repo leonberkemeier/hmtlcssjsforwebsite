@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgt@400;600;900&display=swap');
+
+
+/* ++++++ Navbar +++++++ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body{
+    /* overflow: hidden; */
+    background: #131b2b;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(190, 192, 190);
+    background-image: url('./background2.jpg');
+    background-size: cover;
+    opacity: .95;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 111;
+    /* background-color: red ; */
+    background-color: rgb(168, 169, 168);
+
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(61, 83, 95);
+    letter-spacing: 3px;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    margin: 15px;
+}
+.logo:hover{
+    color: rgb(127, 0, 255);
+}
+b{
+    font-size: 50px;
+    color: rgb(127, 0, 255);
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 20px 15px;
+}
+.navItems li a{
+    /* margin: 2px; */
+    font-size: 25px;
+    color: rgb(61, 83, 95);
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color: rgb(127, 0, 255);
+    font-size: 30px;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+/* +++++++++ section 1 ++++++++++++ */
+
+
+
+.view{
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+
+}
+.home{
+    display: flex;
+    min-height: 120vh;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%,0 100%);
+}
+/* clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%,0 100%); */
+.banner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url('background2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%);
+}
+.highlights{
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    z-index: 11;
+}
+.highlights h3{
+    display: inline;
+    font-size: 2vw;
+    padding: 5px 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    border-left: 6px solid green;
+}
+.highlights h1{
+    font-size: 9vw;
+    text-align: center; 
+    font-weight: normal;
+}
+
+.highlights b{
+    color: green;
+    font-weight: 800;
+    font-family: sans-serif;
+
+}
+.highlights .tagline{
+    color: #d7d7d7;
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: normal;
+
+}
+.highlights .join{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 800;
+    padding: 5px 20px;
+    font-size: 1.5vw;
+    margin-top: 1.2em;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50px;
+    background: transparent;
+    text-transform: uppercase;
+    transform: .3s ease;
+}
+.highlights .join:hover{
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    background: green;
+}
+
+/* ------------ projects ----------- */
+
+.main{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main h2{
+    font-size: 2.5vw;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    display: inline-block;
+    
+}
+span{
+    color: green;
+}
+.main h2:before{
+    position: absolute;
+    content: '';
+    background: green;
+    height: 3px;
+    width: 30%;
+    right: -15px;
+    bottom: 0;
+    border-radius: 50px;
+}
+.main h6{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-family: lighter;
+}
+.content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0 30px;
+    justify-content: center;
+}
+.me{
+    height: 100%;
+    width: 100%;
+}
+
+/* -------- style about section ----------- */
+.main h2{
+    color: white;
+}
+.main h6{
+    color: white;
+}
+.projects .content .cols{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px 70px;
+}
+.projects .content .cols p b{
+    font-size: 20px;
+    margin-right: 2px;
+
+}
+.projects .content .cols a{
+    position: relative;
+    top: 20px;
+    color: #fff;
+    background: green;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.projects .content .cols a:hover{
+    color: #000;
+    background: #fff;
+}
+
+.projects .content .cols .box{
+    position: relative;
+    height: 550px;
+    box-shadow: 0 10px 10px black;
+}
+.projects .content .cols .box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ---- skills ------ */
+
+.skills .content{
+    flex-wrap: wrap;
+}
+.skills .content .frame{
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    background: #222;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+
+.skills .content .frame .box{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.skills .content .frame .box img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .2s ease;
+}
+.skills .content .frame .box:hover img{
+    filter: brightness(100%);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.skills .content .frame .title{
+    color: green;
+    padding: 5px 5px;
+    margin-left: 10px;
+
+
+}
+.skills .content .frame p{
+    font-size: 0.8em;
+    color: white;
+    margin: 10px;
+}
+
+/* ---- photography page ----- */
+
+.progressBoxs{
+    gap: 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 90%; */
+    margin: 20%;
+    
+}
+.grid{
+    width: 60%;
+    
+}
+.photography .grid .progressBox .skill{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+.photography .grid .progressBox .skill .progress_name{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+.photography .grid .progressBox .skill .progress_name .span{
+    color: white;
+}
+.progress{
+    width: 100%;
+    height: 7px;
+    background-origin: blue;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.progress_bar{
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    position: relative;
+}
+.progress_bar::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 7px);
+    transform: translateY(-50%);
+    height: 15px;
+    width: 15px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
