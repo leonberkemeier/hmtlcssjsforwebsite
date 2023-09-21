@@ -27,6 +27,33 @@ body {
     cursor: pointer;
     background: rgb(40, 180, 135,.5);
 }
+.show-modal1{
+  position: relative;
+  top: 80px;
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgb(40, 180, 135,.5);
+}
+.show-modal2{
+  position: relative;
+  top: 80px;
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgb(40, 180, 135,.5);
+}
+.show-modal3{
+  position: relative;
+  top: 80px;
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgb(40, 180, 135,.5);
+}
 .hidden {
     display: none;
   }
@@ -35,6 +62,45 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  .modal1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  .modal2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  .modal3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
     transform: translate(-50%, -50%);
     width: 70%;
   
