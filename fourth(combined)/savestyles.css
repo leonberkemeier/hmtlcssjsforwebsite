@@ -1,0 +1,79 @@
+.skills .grid .grid_skills .skill{
+    margin: 20px;
+    border: 1px solid black;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+.skills .grid .grid_skills .skill .progress_name{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+}
+.skills .grid .grid_courses .collapsible .progress_name{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.skills .grid .grid_courses h1{
+    color: var(--white-color);
+    text-decoration: underline var(--title-color);
+}
+.skills .grid .grid_courses .collapsible{
+    margin: 20px;
+    border: 1px solid black;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--body-color);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+
+}
+.skills .grid .grid_skills .collapsible .progress_name{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 10px;
+}
+.skills .grid .grid_courses .active, .collapsible:hover{
+    background-color: #555;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 0;
+}
+.skills .grid .grid_courses .content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: var(--body-color);
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    width: 90%;
+    padding: 18px;
+    margin-left: 20px;
+    background-color: #555;
+    border: 1px solid black;
+    color: white;
+}
+
+.skills .grid .grid_skills .collapsible {
+    margin: 20px;
+    border: 1px solid black;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--body-color);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+  }
