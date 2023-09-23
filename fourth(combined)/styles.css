@@ -515,7 +515,7 @@ span{
     width: 120px;
 }
 .projects .content .cols ul{
-    list-style: none;
+    list-style-type: circle;
 }
 
 .project_list_item{
@@ -552,7 +552,7 @@ span{
     display: none;
   }
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -563,7 +563,7 @@ span{
     z-index: 5;
   }
   .modal {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -576,7 +576,7 @@ span{
     z-index: 10;
   }
   .modal {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
