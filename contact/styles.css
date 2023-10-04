@@ -35,3 +35,8 @@
     background: #546eff;
     transition: .3s all linear;
 }
+h2{
+    text-align: center;
+    margin: 20px;
+    color: rgb(43, 43, 107);
+}

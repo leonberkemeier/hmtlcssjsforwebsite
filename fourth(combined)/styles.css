@@ -10,13 +10,13 @@
     /* --title-color: #7b1ea5; */
     --text-color: rgb(29, 38, 47);
     --white-color: #fff;
-    --body-color: rgb(5, 10, 58);
+    --body-color: #282828;
 
     /* --nav-color: rgb(53, 47, 96); */
 
-    --nav-color:rgb(45, 46, 51);
+    --nav-color:#181818;
 
-    --coursenskills-color: rgb(32, 38, 92);
+    --coursenskills-color: rgb(45, 46, 51);
     --footer-color: rgb(45, 46, 51);
    
 
@@ -697,7 +697,6 @@ span{
 }
 
 /* ---- skills page ----- */
-
 .progressBoxs{
     gap: 3rem;
     justify-content: center;
@@ -785,9 +784,9 @@ span{
 }
 .skills .grid .grid_skills .collapsible{
     
-    margin: 10px;
+    /* margin: 10px; */
     border: 1px solid black;
-    width: 90%;
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -824,13 +823,6 @@ span{
     border: 1px solid black;
     color: white;
 }
-.skills .grid .grid_courses .courseItem{
-    background: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
 .skills .grid .grid_skills .content{
     padding: 0 18px;
     display: none;
@@ -838,13 +830,12 @@ span{
     background-color: var(--body-color);
     border-bottom-right-radius: 10px ;
     border-bottom-left-radius: 10px ;
-    width: 90%;
+    width: 100%;
     padding: 18px;
-    /* margin-left: 30px; */
+    margin: 10px;
     background-color: var(--lighter-color);
     border: 1px solid black;
     color: white;
-    vertical-align: center;
 }
 .skills .grid .grid_courses .content h6{
     text-transform: capitalize;
@@ -855,7 +846,14 @@ span{
     color: darkblue;
 }
 
-
+.skills .grid .courseItem{
+    margin: 30px;
+    
+}
+.skills .grid .skillsItem{
+    margin: 15px;
+    
+}
 
 
 
@@ -886,6 +884,7 @@ span{
     border-radius: 50%;
     border: 1px solid black;
 }
+
 
 /*  photography css */
 
@@ -1022,6 +1021,39 @@ span{
     display: flex;
     justify-content: center;
     width: 80vw;
+}
+/* ====== contact form ========= */
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    row-gap: 1rem;
+}
+.contact-form input,.contact-form textarea{
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    padding: 15px;
+    color: white;
+    background: rgb(43, 43, 107);
+    border-radius: .4rem;
+
+
+}
+
+.contact-form .send-btn{
+    width: 120px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: rgb(94, 86, 245);
+    cursor: pointer;
+
+}
+.contact-form .send-btn:hover{
+    background: #546eff;
+    transition: .3s all linear;
 }
 
 /* ====== css for footer ======== */
