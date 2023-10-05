@@ -13,3 +13,9 @@ toggle.addEventListener('click', function(){
         body.style.transition = '1s';
     }
 });
+
+const toggleArrow = document.getElementById('toggleArrow');
+
+toggleArrow.addEventListener('click', function(){
+    this.classList.toggle('bi-arrow-up');
+})
