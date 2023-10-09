@@ -4,12 +4,23 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+:root{
+    --background-color: #d8d8d8;
+    --first-color: rgb(61,0 ,121);
+    --nav-color:#181818;
+    --white-color: #fff;
+    --body-color: #282828;
+    --title-color: rgb(127, 0, 255);
+    --lighter-color: rgb(188, 121, 255);
+    --dorpdown-color: #383838;
+    --hover-nav-color: #282828;
+}
 
 .container{
     display: flex;
     font-size: 14px;
     height: 100vh;
-    background: #d8d8d8;
+    background: var(--body-color);
 
 }
 .navbar{
@@ -18,7 +29,7 @@
     font-weight: 800;
     margin: auto;
     padding: 0.5rem 1.5rem;
-    background: #fff;
+    background: var(--nav-color);
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
 }
@@ -28,8 +39,8 @@
     margin-right: 2rem;
 }
 .nav__logo:hover{
-    background-color: black;
-    color: #fff;
+    background-color: var(--hover-nav-color);
+    color: var(--lighter-color);
     border-radius: .5rem;
 
 }
@@ -48,14 +59,14 @@
 }
 a{
     text-decoration: none;
-    color: currentColor;
+    color: var(--title-color);
 }
 .drop-down{
     position: absolute;
     /* padding: .5rem 0; */
     margin: .5rem -.95rem;
-    background: antiquewhite;
-    color: black;
+    background: var(--dorpdown-color);
+    color: var(--title-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
     border-radius: 2px;
     font-size: 12px;
@@ -67,8 +78,8 @@ a{
     border-radius: 2px;
 }
 .nav-link:hover{
-    background-color: black;
-    color: #fff;
+    background-color: var(--hover-nav-color);
+    color: var(--lighter-color);
     border-radius: .5rem;
 
 }
@@ -89,4 +100,9 @@ a{
 }
 .projects:hover .dropdown-icon{
     transform: rotate(180deg);
+}
+.drop-down li:hover{
+    background: var(--hover-nav-color);
+    color: var(--lighter-color);
+    border-radius: 2px;
 }
