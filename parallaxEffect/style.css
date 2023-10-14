@@ -12,11 +12,11 @@ body{
     background-size: cover;
     background-position: center;
 
-    /* overflow: hidden; */
+    
 }
 
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -57,7 +57,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    overflow: hidden;
 }
 
 #text{
