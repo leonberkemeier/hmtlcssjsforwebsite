@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: rgb(52, 52, 53);
+}
+body h1{
+    background: rgb(146, 156, 157);
+    margin: 100px;
+    color: blueviolet;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: "Space Mono", monospace;
+    border-radius: 20px;
+    width: 550px;
+}
+h1:hover{
+    background: rgb(186, 186, 187);
+    transition: .3s;
+}
