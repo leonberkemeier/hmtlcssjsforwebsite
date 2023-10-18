@@ -21,3 +21,18 @@ h1:hover{
     background: rgb(186, 186, 187);
     transition: .3s;
 }
+
+.nav__logo{
+    height: 100px;
+    width: 200px;
+    background:grey;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.nav__logo1{
+    font-size: 80px;
+    text-decoration: none;
+    color: black;
+}
