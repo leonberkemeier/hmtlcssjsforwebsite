@@ -60,11 +60,11 @@ body{
 }
 
 .card::before{
-    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(215, 214, 214, 0.05), transparent 40%   );
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(240, 239, 239, 0.05), transparent 40%   );
     z-index: 3;
 }
 .card > .card-border{
-    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(215, 214, 214, 0.3), transparent 40%   );  
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(229, 228, 228, 0.3), transparent 40%   );  
     z-index: 1;
 }
 .card > .card-content{
