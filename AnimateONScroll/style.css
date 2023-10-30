@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+
+.first-section{
+    height: 100vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hidden{
+    height: 100vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+    transition: all 3s;
+}
