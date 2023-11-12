@@ -11,7 +11,7 @@ body{
 }
 
 .first-section{
-    height: 100vh;
+    height: 110vh;
     padding: 60px;
     display: flex;
     flex-direction: column;

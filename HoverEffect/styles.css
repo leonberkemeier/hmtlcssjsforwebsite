@@ -46,7 +46,7 @@ body{
     opacity: 1;
 }
 
-.card::before, .card > .card-border{
+.card > .card-border{
     content: "";
     height: 100%;
     left: 0px;
@@ -60,19 +60,24 @@ body{
 }
 
 .card::before{
-    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(240, 239, 239, 0.05), transparent 40%   );
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(240, 239, 239, 0.2), transparent 40%   );
     z-index: 3;
 }
 .card > .card-border{
-    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(229, 228, 228, 0.3), transparent 40%   );  
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(229, 228, 228, 0.6), transparent 40%   );  
     z-index: 1;
 }
 .card > .card-content{
-    height: calc(100% - 2px);
-    width: calc(100% - 2px);
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
     background-color: var(--card-color);
     border-radius: inherit;
-    margin: 1px;
+    margin: 2px;
     position: relative;
     z-index: 2;
+    color: white;
+}
+
+.card .card-content .h1{
+    color: white;
 }

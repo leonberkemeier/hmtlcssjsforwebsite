@@ -18,4 +18,11 @@ const toggleArrow = document.getElementById('toggleArrow');
 
 toggleArrow.addEventListener('click', function(){
     this.classList.toggle('bi-arrow-up');
+});
+
+
+const toggleChevron = document.getElementById('progress-name');
+
+toggleChevron.addEventListener('click', function(){
+    this.classList.toggle('bi-chevron-compact-up');
 })
