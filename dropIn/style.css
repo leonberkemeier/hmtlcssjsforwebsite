@@ -8,8 +8,9 @@
     background: green;
     left: 200px;
     top: 250px;
-    animation: dropIn 2s ease;
-    animation-delay: calc(var(--order) * 200ms);
+    animation: dropIn 1.5s ease;
+    /* animation-delay: calc(var(--order) * 200ms); */
+    border-radius: 5px;
 }
 
 .two{
@@ -19,8 +20,9 @@
     background: green;
     left: 200px;
     top: 300px;
-    animation: dropIn 2s ease;
-    animation-delay: calc(var(--order) * 200ms);
+    animation: dropIn 1.75s ease;
+    /* animation-delay: calc(var(--order) * 200ms); */
+    border-radius: 5px;
 }
 
 .three{
@@ -31,7 +33,8 @@
     left: 200px;
     top: 350px;
     animation: dropIn 2s ease;
-    animation-delay: calc(var(--order) * 200ms);
+    /* animation-delay: calc(var(--order) * 200ms); */
+    border-radius: 5px;
 }
 
 .drop{
