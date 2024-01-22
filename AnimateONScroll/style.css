@@ -30,7 +30,8 @@ body{
 
 .show{
     opacity: 1;
-    transition: all 3s;
+    animation-delay: 2s;
+    transition: all 1s;
     filter: blur(0);
 }
 
