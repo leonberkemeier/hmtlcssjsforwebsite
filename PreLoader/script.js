@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
 
     loader.classList.add("loader-hidden")
 
-    loader.addEventListener("transionionend", () =>{
+    loader.addEventListener("transionend", () =>{
         document.body.removeChild("loader");
     })
 })

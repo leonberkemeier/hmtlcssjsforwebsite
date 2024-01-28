@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <h1>Remove Child</h1>
+
+    <div class="parent" id="parent">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga voluptates dolore, molestiae sit vitae adipisci labore temporibus explicabo in? Adipisci atque doloribus rerum id illum dolorum architecto, ex natus saepe.</p>
+        <br>
+        <div class="child" id="child">
+            <h2>someRelation stuff</h2>
+            <br>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="search">
+        <input type="button" id="rm-Search-Value">
+
+        <br>
+        <h1>html only solution</h1>
+        <form>
+            <input type="text" name="text" />
+            <input type="reset" />
+        </form>
+
+        
+        <br>
+        <h1>js soltuion</h1>
+
+        <input id="text" type="text" name="text" placeholder="text" />
+        <input id="button" type="button" />
+
+        
+    </div>
+    <p id="demo"></p>
+
+    <br>
+    <button onclick="myFunction()">Remove</button>
+
+<ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+    
+    <!-- <button onclick="removeChild()" id="rmChild">RemoveChild</button> -->
+    <button  onclick="remoceChild1()" id="rmParent">RemoveParent</button>
+    <button onclick="removeSearch1()" id="rmSearch">RemoveSearch</button>
+    <button onclick="remoceChild()">Remove CHild</button>
+    <script src="script.js" defer></script>
+</body>
+</html>
