@@ -10,6 +10,13 @@ let thumbnails = document.querySelectorAll('.thumbnail .item');
 let countItem = items.length;
 let itemActive = 0;
 
+let timeRunning = 7000;
+let timeAutoNext = 7000;
+let runTimeOut;
+let runAutoRun = setTimeout(()=>{
+    next.click();
+}, timeAutoNext);
+
 // event next click
 
 next.onclick = function(){
@@ -41,7 +48,19 @@ function showSlider(){
     // active new item
     items[itemActive].classList.add('active');
     thumbnails[itemActive].classList.add('active');
+
+    clearTimeout(runTimeOut);
+    runTimeOut = setTimeout(() =>{
+        itemActiveOld.classList.remove('active');
+        thumnailActiveOld.classList.remove('active');
+        // items[itemActive].classList.add('active');
+        // thumbnails[itemActive].classList.add('active');
+    }, timeRunning);
     
+    clearTimeout(runTimeOut);
+    runAutoRun = setTimeout(()=>{
+        next.click();
+    }, timeAutoNext);
 }
 
 //click thumnail
@@ -51,5 +70,8 @@ thumbnails.forEach((thumbnail, index) =>{
         showSlider();
     })
 })
+
+
+
 
 // alert('hi')
