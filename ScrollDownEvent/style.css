@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ margin: 0;}
+header {
+    background: blue;
+    height: 7.2rem;
+    transition: all 0.2s ease-in-out;
+    z-index: 100;
+}
+
+.content { 
+    height:1000px; 
+}
+
+header.fixedToTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* add space for fixed header when it's fixed to top */
+header.fixedToTop + .content{
+    margin-top:8rem;
+}
