@@ -74,10 +74,7 @@ function showSlider() {
     
 }
 
-
-
 var cancel = setInterval(showSlider, 1000);
-
 
 function Reset(){
     seconds = 0;
