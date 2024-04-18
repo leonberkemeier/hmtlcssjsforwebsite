@@ -7,7 +7,7 @@
 body{ margin: 0;}
 header {
     background: blue;
-    height: 7.2rem;
+    height: 150px;
     transition: all 0.2s ease-in-out;
     z-index: 100;
 }
@@ -25,5 +25,5 @@ header.fixedToTop {
 
 /* add space for fixed header when it's fixed to top */
 header.fixedToTop + .content{
-    margin-top:8rem;
+    margin-top:180px;
 }

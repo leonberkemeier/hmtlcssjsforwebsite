@@ -25,7 +25,7 @@ window.onscroll = function() {
   /* if scrolling down, let it scroll out of view as normal */
   if (prevScrollpos <= currentScrollPos ){
       headerDiv.classList.remove("fixedToTop");
-      headerDiv.style.top ="-7.2rem";
+      headerDiv.style.top ="-150px";
   }
   /* otherwise if we're scrolling up, fix the nav to the top */
   else{  
